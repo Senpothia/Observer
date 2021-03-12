@@ -54,7 +54,7 @@ public class Compteur {
         
         Object[] listeners = listenersList.getListenerList();
         for(int i=0; i<listeners.length; i++) { 
-       (CompteurListener)listeners[i].compteurChanged(valeur);
+      // (CompteurListener)listeners[i].compteurChanged(valeur);
 
     }
 
